@@ -1,0 +1,341 @@
+<ENTRY>
+{
+ "session": {
+  "name": "v++_link_compress_decompress",
+  "pid": "0",
+  "uuid": "b285006b-d395-4e42-a392-13dfdf3a3951",
+  "description": "",
+  "timestamp": "0",
+  "outputFiles": [
+   {
+    "type": "JSON",
+    "mode": "CLIENT_ONLY",
+    "path": "/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/_x_temp.hw.xilinx_u250_xdma_201830_2/_build.hw/.tlog/v++_link_compress_decompress.xtl",
+    "continuous": true
+   },
+   {
+    "type": "JSON",
+    "mode": "LOCAL_IF_NO_CONNECT",
+    "path": "/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/build/xclbin_xilinx_u250_xdma_201830_2_hw/compress_decompress.xclbin.link_summary",
+    "continuous": true
+   },
+   {
+    "type": "BINARY_PROTOBUF",
+    "mode": "LOCAL_IF_NO_CONNECT",
+    "path": "/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/build/xclbin_xilinx_u250_xdma_201830_2_hw/compress_decompress.xclbin.link_summary.pb",
+    "continuous": true
+   }
+  ]
+ },
+ "thisFile": "/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/build/xclbin_xilinx_u250_xdma_201830_2_hw/compress_decompress.xclbin.link_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Fri Dec  4 22:43:55 2020",
+ "timestampMillis": "1607118235927",
+ "buildStep": {
+  "cmdId": "8957feb6-c84c-4beb-bdef-b74401c89a3a",
+  "name": "v++",
+  "logFile": "/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/_x_temp.hw.xilinx_u250_xdma_201830_2/_build.hw/link/link.steps.log",
+  "commandLine": "/opt/apps/xilinx/Vitis/2019.2/bin/unwrapped/lnx64.o/v++  --xp \"vivado_prop:run.__KERNEL__.{STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS}={-directive sdx_optimization_effort_high}\" --xp vivado_prop:run.impl_1.STEPS.PHYS_OPT_DESIGN.IS_ENABLED=true --xp \"misc:report=type report_timing_summary name impl_report_timing_summary_route_design_summary steps {route_design} runs {impl_1} options {-max_paths 10}\" --xp \"misc:report=type report_timing_summary name impl_report_timing_summary_post_route_phys_opt_design_summary steps {post_route_phys_opt_design} runs {impl_1} options {-max_paths 10}\" -I/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L1/include/hw -I/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L2/src/ -I/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L2/include/ -t hw --platform /opt/xilinx/platforms/xilinx_u250_xdma_201830_2/xilinx_u250_xdma_201830_2.xpfm --save-temps --config /shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/advanced.ini -DPARALLEL_BLOCK=8 -DMULTIPLE_BYTES=8 -DGZIP_MODE --kernel_frequency 250 --optimize 2 --jobs 8 --config /shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/opts.ini --config /shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/config.ini --temp_dir /shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/_x_temp.hw.xilinx_u250_xdma_201830_2/_build.hw --report_dir /shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/reports/_build.hw/ -l -o/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/build/xclbin_xilinx_u250_xdma_201830_2_hw/compress_decompress.xclbin /shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/_x_temp.hw.xilinx_u250_xdma_201830_2/xf_compress_lz77.xo /shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/_x_temp.hw.xilinx_u250_xdma_201830_2/xf_huffman.xo /shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/_x_temp.hw.xilinx_u250_xdma_201830_2/xf_zlib_datareader.xo /shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/_x_temp.hw.xilinx_u250_xdma_201830_2/xf_zlib_datawriter.xo /shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/_x_temp.hw.xilinx_u250_xdma_201830_2/xf_zlib_decompress.xo ",
+  "args": [
+   "-I/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L1/include/hw",
+   "-I/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L2/src/",
+   "-I/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L2/include/",
+   "-t",
+   "hw",
+   "--platform",
+   "/opt/xilinx/platforms/xilinx_u250_xdma_201830_2/xilinx_u250_xdma_201830_2.xpfm",
+   "--save-temps",
+   "--config",
+   "/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/advanced.ini",
+   "-DPARALLEL_BLOCK=8",
+   "-DMULTIPLE_BYTES=8",
+   "-DGZIP_MODE",
+   "--kernel_frequency",
+   "250",
+   "--optimize",
+   "2",
+   "--jobs",
+   "8",
+   "--config",
+   "/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/opts.ini",
+   "--config",
+   "/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/config.ini",
+   "--temp_dir",
+   "/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/_x_temp.hw.xilinx_u250_xdma_201830_2/_build.hw",
+   "--report_dir",
+   "/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/reports/_build.hw/",
+   "-l",
+   "-o/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/build/xclbin_xilinx_u250_xdma_201830_2_hw/compress_decompress.xclbin",
+   "/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/_x_temp.hw.xilinx_u250_xdma_201830_2/xf_compress_lz77.xo",
+   "/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/_x_temp.hw.xilinx_u250_xdma_201830_2/xf_huffman.xo",
+   "/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/_x_temp.hw.xilinx_u250_xdma_201830_2/xf_zlib_datareader.xo",
+   "/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/_x_temp.hw.xilinx_u250_xdma_201830_2/xf_zlib_datawriter.xo",
+   "/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/_x_temp.hw.xilinx_u250_xdma_201830_2/xf_zlib_decompress.xo"
+  ],
+  "iniFiles": [
+   {
+    "path": "/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/advanced.ini",
+    "content": "[advanced]\nparam=compiler.enableAutoPipelining=false\nprop=solution.kernel_compiler_margin=37\nprop=solution.hls_pre_tcl=hls_directives.tcl\n\n[vivado]\nprop=run.impl_1.{STEPS.PLACE_DESIGN.ARGS.DIRECTIVE}={ExtraNetDelay_high}\nprop=run.impl_1.{STEPS.PHYS_OPT_DESIGN.ARGS.DIRECTIVE}={Explore}\nprop=run.impl_1.{STEPS.ROUTE_DESIGN.ARGS.DIRECTIVE}={Explore}\n"
+   },
+   {
+    "path": "/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/opts.ini",
+    "content": "[connectivity]\nstream_connect=xilZlibDmWriter_1.instreamk:xilDecompressFull_1.inaxistreamd\nstream_connect=xilDecompressFull_1.outaxistreamd:xilZlibDmReader_1.outstreamk\nstream_connect=xilDecompressFull_1.sizestreamd:xilZlibDmReader_1.sizestreamk\n\nstream_connect=xilZlibDmWriter_2.instreamk:xilDecompressFull_2.inaxistreamd\nstream_connect=xilDecompressFull_2.outaxistreamd:xilZlibDmReader_2.outstreamk\nstream_connect=xilDecompressFull_2.sizestreamd:xilZlibDmReader_2.sizestreamk\n\nstream_connect=xilZlibDmWriter_3.instreamk:xilDecompressFull_3.inaxistreamd\nstream_connect=xilDecompressFull_3.outaxistreamd:xilZlibDmReader_3.outstreamk\nstream_connect=xilDecompressFull_3.sizestreamd:xilZlibDmReader_3.sizestreamk\n\nstream_connect=xilZlibDmWriter_4.instreamk:xilDecompressFull_4.inaxistreamd\nstream_connect=xilDecompressFull_4.outaxistreamd:xilZlibDmReader_4.outstreamk\nstream_connect=xilDecompressFull_4.sizestreamd:xilZlibDmReader_4.sizestreamk\n\nstream_connect=xilZlibDmWriter_5.instreamk:xilDecompressFull_5.inaxistreamd\nstream_connect=xilDecompressFull_5.outaxistreamd:xilZlibDmReader_5.outstreamk\nstream_connect=xilDecompressFull_5.sizestreamd:xilZlibDmReader_5.sizestreamk\n\nstream_connect=xilZlibDmWriter_6.instreamk:xilDecompressFull_6.inaxistreamd\nstream_connect=xilDecompressFull_6.outaxistreamd:xilZlibDmReader_6.outstreamk\nstream_connect=xilDecompressFull_6.sizestreamd:xilZlibDmReader_6.sizestreamk\n\nstream_connect=xilZlibDmWriter_7.instreamk:xilDecompressFull_7.inaxistreamd\nstream_connect=xilDecompressFull_7.outaxistreamd:xilZlibDmReader_7.outstreamk\nstream_connect=xilDecompressFull_7.sizestreamd:xilZlibDmReader_7.sizestreamk\n\nstream_connect=xilZlibDmWriter_8.instreamk:xilDecompressFull_8.inaxistreamd\nstream_connect=xilDecompressFull_8.outaxistreamd:xilZlibDmReader_8.outstreamk\nstream_connect=xilDecompressFull_8.sizestreamd:xilZlibDmReader_8.sizestreamk\n\nstream_connect=xilZlibDmWriter_9.instreamk:xilDecompressFull_9.inaxistreamd\nstream_connect=xilDecompressFull_9.outaxistreamd:xilZlibDmReader_9.outstreamk\nstream_connect=xilDecompressFull_9.sizestreamd:xilZlibDmReader_9.sizestreamk\n\n\n# LZ77 Bank & SLR Assignments\nsp=xilLz77Compress_1.in:HBM[0]\nsp=xilLz77Compress_1.out:HBM[0]\nsp=xilLz77Compress_1.compressd_size:HBM[0]\nsp=xilLz77Compress_1.in_block_size:HBM[0]\nsp=xilLz77Compress_1.dyn_ltree_freq:HBM[0]\nsp=xilLz77Compress_1.dyn_ltree_freq:HBM[0]\nslr=xilLz77Compress_1:SLR0\n\nsp=xilLz77Compress_2.in:HBM[1]\nsp=xilLz77Compress_2.out:HBM[1]\nsp=xilLz77Compress_2.compressd_size:HBM[1]\nsp=xilLz77Compress_2.in_block_size:HBM[1]\nsp=xilLz77Compress_2.dyn_ltree_freq:HBM[1]\nsp=xilLz77Compress_2.dyn_ltree_freq:HBM[1]\nslr=xilLz77Compress_2:SLR1\n\n\n#Huffman Bank & SLR Assignment\nsp=xilHuffmanKernel_1.in:HBM[0] \nsp=xilHuffmanKernel_1.dyn_ltree_freq:HBM[0] \nsp=xilHuffmanKernel_1.dyn_dtree_freq:HBM[0] \nsp=xilHuffmanKernel_1.out:HBM[0] \nsp=xilHuffmanKernel_1.in_block_size:HBM[0] \nsp=xilHuffmanKernel_1.compressd_size:HBM[0] \nslr=xilHuffmanKernel_1:SLR0 \n\nsp=xilHuffmanKernel_2.in:HBM[1] \nsp=xilHuffmanKernel_2.dyn_ltree_freq:HBM[1] \nsp=xilHuffmanKernel_2.dyn_dtree_freq:HBM[1] \nsp=xilHuffmanKernel_2.out:HBM[1] \nsp=xilHuffmanKernel_2.in_block_size:HBM[1] \nsp=xilHuffmanKernel_2.compressd_size:HBM[1] \nslr=xilHuffmanKernel_2:SLR1 \n\n#Decompress Bank & SLR Assignment\nsp=xilZlibDmReader_1.out:HBM[2]\nsp=xilZlibDmReader_1.encoded_size:HBM[2]\nsp=xilZlibDmReader_1.status_flag:HBM[2]\nslr=xilZlibDmReader_1:SLR0\nsp=xilZlibDmWriter_1.in:HBM[2]\nslr=xilZlibDmWriter_1:SLR0\nslr=xilDecompressFull_1:SLR0\n\nsp=xilZlibDmReader_2.out:HBM[3]\nsp=xilZlibDmReader_2.encoded_size:HBM[3]\nsp=xilZlibDmReader_2.status_flag:HBM[3]\nslr=xilZlibDmReader_2:SLR0\nsp=xilZlibDmWriter_2.in:HBM[3]\nslr=xilZlibDmWriter_2:SLR0\nslr=xilDecompressFull_2:SLR0\n\nsp=xilZlibDmReader_3.out:HBM[4]\nsp=xilZlibDmReader_3.encoded_size:HBM[4]\nsp=xilZlibDmReader_3.status_flag:HBM[4]\nslr=xilZlibDmReader_3:SLR0\nsp=xilZlibDmWriter_3.in:HBM[4]\nslr=xilZlibDmWriter_3:SLR0\nslr=xilDecompressFull_3:SLR0\n\nsp=xilZlibDmReader_4.out:HBM[5]\nsp=xilZlibDmReader_4.encoded_size:HBM[5]\nsp=xilZlibDmReader_4.status_flag:HBM[5]\nslr=xilZlibDmReader_4:SLR1\nsp=xilZlibDmWriter_4.in:HBM[5]\nslr=xilZlibDmWriter_4:SLR1\nslr=xilDecompressFull_4:SLR1\n\nsp=xilZlibDmReader_5.out:HBM[6]\nsp=xilZlibDmReader_5.encoded_size:HBM[6]\nsp=xilZlibDmReader_5.status_flag:HBM[6]\nslr=xilZlibDmReader_5:SLR1\nsp=xilZlibDmWriter_5.in:HBM[6]\nslr= xilZlibDmWriter_5:SLR1\nslr=xilDecompressFull_5:SLR1\n\nsp=xilZlibDmReader_6.out:HBM[7]\nsp=xilZlibDmReader_6.encoded_size:HBM[7]\nsp=xilZlibDmReader_6.status_flag:HBM[7]\nslr=xilZlibDmReader_6:SLR1\nsp=xilZlibDmWriter_6.in:HBM[7]\nslr=xilZlibDmWriter_6:SLR1\nslr=xilDecompressFull_6:SLR1\n\nsp=xilZlibDmReader_7.out:HBM[8]\nsp=xilZlibDmReader_7.encoded_size:HBM[8]\nsp=xilZlibDmReader_7.status_flag:HBM[8]\nslr=xilZlibDmReader_7:SLR1\nsp=xilZlibDmWriter_7.in:HBM[8]\nslr=xilZlibDmWriter_7:SLR1\nslr=xilDecompressFull_7:SLR1\n\nsp=xilZlibDmReader_8.out:HBM[9]\nsp=xilZlibDmReader_8.encoded_size:HBM[9]\nsp=xilZlibDmReader_8.status_flag:HBM[9]\nslr=xilZlibDmReader_8:SLR1\nsp=xilZlibDmWriter_8.in:HBM[9]\nslr=xilZlibDmWriter_8:SLR1\nslr=xilDecompressFull_8:SLR1\n\nsp=xilZlibDmReader_9.out:HBM[10]\nsp=xilZlibDmReader_9.encoded_size:HBM[10]\nsp=xilZlibDmReader_9.status_flag:HBM[10]\nslr=xilZlibDmReader_9:SLR0\nsp=xilZlibDmWriter_9.in:HBM[10]\nslr=xilZlibDmWriter_9:SLR0\nslr=xilDecompressFull_9:SLR0\n"
+   },
+   {
+    "path": "/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/config.ini",
+    "content": "[connectivity]\nnk=xilLz77Compress:2\nnk=xilHuffmanKernel:2\nnk=xilZlibDmWriter:9\nnk=xilDecompressFull:9\nnk=xilZlibDmReader:9\n"
+   }
+  ]
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Dec  4 22:43:55 2020",
+ "timestampMillis": "1607118235929",
+ "status": {
+  "cmdId": "8957feb6-c84c-4beb-bdef-b74401c89a3a",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Fri Dec  4 22:44:13 2020",
+ "timestampMillis": "1607118253725",
+ "buildSummary": {
+  "hardwarePlatform": "xilinx_u250_xdma_201830_2.xpfm",
+  "hardwareDsa": "xilinx_u250_xdma_201830_2.dsa",
+  "platformDirectory": "/opt/xilinx/platforms/xilinx_u250_xdma_201830_2",
+  "runtime": "OpenCL",
+  "systemConfig": "Linux",
+  "flow": "BF_LINK",
+  "target": "TT_HW",
+  "binaryContainer": {
+   "base": {
+    "type": "BT_UKNOWN",
+    "name": "compress_decompress",
+    "file": "/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/build/xclbin_xilinx_u250_xdma_201830_2_hw/compress_decompress.xclbin",
+    "reports": []
+   },
+   "kernels": []
+  },
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "xilLz77Compress",
+     "file": "/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/_x_temp.hw.xilinx_u250_xdma_201830_2/xf_compress_lz77.xo",
+     "reports": []
+    },
+    "sources": [
+     "/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/_x_temp.hw.xilinx_u250_xdma_201830_2/_build.hw/link/int/xo/xilLz77Compress/xilLz77Compress/cpu_sources/zlib_lz77_compress_mm.cpp"
+    ],
+    "cuNames": [
+     "xilLz77Compress_1",
+     "xilLz77Compress_2"
+    ]
+   },
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "xilHuffmanKernel",
+     "file": "/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/_x_temp.hw.xilinx_u250_xdma_201830_2/xf_huffman.xo",
+     "reports": []
+    },
+    "sources": [
+     "/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/_x_temp.hw.xilinx_u250_xdma_201830_2/_build.hw/link/int/xo/xilHuffmanKernel/xilHuffmanKernel/cpu_sources/zlib_huffman_enc_mm.cpp"
+    ],
+    "cuNames": [
+     "xilHuffmanKernel_1",
+     "xilHuffmanKernel_2"
+    ]
+   },
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "xilZlibDmReader",
+     "file": "/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/_x_temp.hw.xilinx_u250_xdma_201830_2/xf_zlib_datareader.xo",
+     "reports": []
+    },
+    "sources": [
+     "/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/_x_temp.hw.xilinx_u250_xdma_201830_2/_build.hw/link/int/xo/xilZlibDmReader/xilZlibDmReader/cpu_sources/zlib_dm_multibyte_rd.cpp"
+    ],
+    "cuNames": [
+     "xilZlibDmReader_1",
+     "xilZlibDmReader_2",
+     "xilZlibDmReader_3",
+     "xilZlibDmReader_4",
+     "xilZlibDmReader_5",
+     "xilZlibDmReader_6",
+     "xilZlibDmReader_7",
+     "xilZlibDmReader_8",
+     "xilZlibDmReader_9"
+    ]
+   },
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "xilZlibDmWriter",
+     "file": "/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/_x_temp.hw.xilinx_u250_xdma_201830_2/xf_zlib_datawriter.xo",
+     "reports": []
+    },
+    "sources": [
+     "/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/_x_temp.hw.xilinx_u250_xdma_201830_2/_build.hw/link/int/xo/xilZlibDmWriter/xilZlibDmWriter/cpu_sources/zlib_dm_multibyte_wr.cpp"
+    ],
+    "cuNames": [
+     "xilZlibDmWriter_1",
+     "xilZlibDmWriter_2",
+     "xilZlibDmWriter_3",
+     "xilZlibDmWriter_4",
+     "xilZlibDmWriter_5",
+     "xilZlibDmWriter_6",
+     "xilZlibDmWriter_7",
+     "xilZlibDmWriter_8",
+     "xilZlibDmWriter_9"
+    ]
+   },
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "xilDecompressFull",
+     "file": "/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/_x_temp.hw.xilinx_u250_xdma_201830_2/xf_zlib_decompress.xo",
+     "reports": []
+    },
+    "sources": [
+     "/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/_x_temp.hw.xilinx_u250_xdma_201830_2/_build.hw/link/int/xo/xilDecompressFull/xilDecompressFull/cpu_sources/zlib_parallelbyte_decompress_full.cpp"
+    ],
+    "cuNames": [
+     "xilDecompressFull_1",
+     "xilDecompressFull_2",
+     "xilDecompressFull_3",
+     "xilDecompressFull_4",
+     "xilDecompressFull_5",
+     "xilDecompressFull_6",
+     "xilDecompressFull_7",
+     "xilDecompressFull_8",
+     "xilDecompressFull_9"
+    ]
+   }
+  ]
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Fri Dec  4 22:44:14 2020",
+ "timestampMillis": "1607118254421",
+ "buildStep": {
+  "cmdId": "208faf25-b78f-473a-b2da-51da225bd504",
+  "name": "system_link",
+  "logFile": "",
+  "commandLine": "system_link --xo /shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/_x_temp.hw.xilinx_u250_xdma_201830_2/xf_compress_lz77.xo --xo /shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/_x_temp.hw.xilinx_u250_xdma_201830_2/xf_huffman.xo --xo /shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/_x_temp.hw.xilinx_u250_xdma_201830_2/xf_zlib_datareader.xo --xo /shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/_x_temp.hw.xilinx_u250_xdma_201830_2/xf_zlib_datawriter.xo --xo /shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/_x_temp.hw.xilinx_u250_xdma_201830_2/xf_zlib_decompress.xo -keep --config /shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/_x_temp.hw.xilinx_u250_xdma_201830_2/_build.hw/link/int/syslinkConfig.ini --xpfm /opt/xilinx/platforms/xilinx_u250_xdma_201830_2/xilinx_u250_xdma_201830_2.xpfm --target hw --output_dir /shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/_x_temp.hw.xilinx_u250_xdma_201830_2/_build.hw/link/int --temp_dir /shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/_x_temp.hw.xilinx_u250_xdma_201830_2/_build.hw/link/sys_link",
+  "args": [
+   "--xo",
+   "/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/_x_temp.hw.xilinx_u250_xdma_201830_2/xf_compress_lz77.xo",
+   "--xo",
+   "/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/_x_temp.hw.xilinx_u250_xdma_201830_2/xf_huffman.xo",
+   "--xo",
+   "/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/_x_temp.hw.xilinx_u250_xdma_201830_2/xf_zlib_datareader.xo",
+   "--xo",
+   "/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/_x_temp.hw.xilinx_u250_xdma_201830_2/xf_zlib_datawriter.xo",
+   "--xo",
+   "/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/_x_temp.hw.xilinx_u250_xdma_201830_2/xf_zlib_decompress.xo",
+   "-keep",
+   "--config",
+   "/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/_x_temp.hw.xilinx_u250_xdma_201830_2/_build.hw/link/int/syslinkConfig.ini",
+   "--xpfm",
+   "/opt/xilinx/platforms/xilinx_u250_xdma_201830_2/xilinx_u250_xdma_201830_2.xpfm",
+   "--target",
+   "hw",
+   "--output_dir",
+   "/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/_x_temp.hw.xilinx_u250_xdma_201830_2/_build.hw/link/int",
+   "--temp_dir",
+   "/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/_x_temp.hw.xilinx_u250_xdma_201830_2/_build.hw/link/sys_link"
+  ],
+  "iniFiles": []
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Dec  4 22:44:14 2020",
+ "timestampMillis": "1607118254422",
+ "status": {
+  "cmdId": "208faf25-b78f-473a-b2da-51da225bd504",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Dec  4 22:44:32 2020",
+ "timestampMillis": "1607118272627",
+ "status": {
+  "cmdId": "208faf25-b78f-473a-b2da-51da225bd504",
+  "state": "CS_FAILED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Dec  4 22:44:32 2020",
+ "timestampMillis": "1607118272831",
+ "report": {
+  "path": "/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/reports/_build.hw/link/v++_link_compress_decompress_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Dec  4 22:44:32 2020",
+ "timestampMillis": "1607118272833",
+ "report": {
+  "path": "/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/_x_temp.hw.xilinx_u250_xdma_201830_2/_build.hw/v++_link_compress_decompress_guidance.pb",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Dec  4 22:44:40 2020",
+ "timestampMillis": "1607118280337",
+ "report": {
+  "path": "/shares/bulk/jpetrikoenig/repositories/test/Vitis_Libraries/data_compression/L3/demos/gzip_hbm/_x_temp.hw.xilinx_u250_xdma_201830_2/_build.hw/logs/optraceViewer.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "OPERATION_TRACE"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Dec  4 22:44:40 2020",
+ "timestampMillis": "1607118280346",
+ "status": {
+  "cmdId": "8957feb6-c84c-4beb-bdef-b74401c89a3a",
+  "state": "CS_FAILED"
+ }
+}
+</ENTRY>

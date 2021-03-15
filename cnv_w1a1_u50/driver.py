@@ -1,4 +1,3 @@
-
 import argparse
 import os
 from pynq import Overlay
@@ -198,5 +197,3 @@ if __name__ == "__main__":
         obuf_folded = finnDriver.unpack_output(obuf_packed)
         obuf_normal = finnDriver.unfold_output(obuf_folded)
         np.save(outputfile, obuf_normal)
-
-
